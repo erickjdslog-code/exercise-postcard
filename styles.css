@@ -1,0 +1,64 @@
+body {
+	background: black;
+}
+
+.postcard {
+	width: 400px;
+	height: 300px;
+	background: white;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	margin-right: 10px;
+}
+.postcard-header h1 {
+	font-family: cursive;
+	width: 500px;
+	margin: 5px;
+	margin-left: 10px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	margin-top: 0;
+}
+.body-left p:last-child {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	margin-bottom: 0;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px solid gray;
+}
+.postcard-footer {
+	text-align: center;
+	margin-top: -50px;
+}
+
+button {
+	background: gray;
+	padding: 10px;
+	display: inline-block;
+}
+
+button:hover {
+	background: darkgray;
+	color: black;
+}
+
+form {
+	font-family: Arial, sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+}
